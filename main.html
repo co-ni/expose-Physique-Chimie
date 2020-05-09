@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Répartition des éléments chimique</title>
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+  <script>
+    
+    $(document).ready(function() {
+      $('.js-scrollToIntro').on('click', function() {
+        document.title = 'Répartition des éléments chimique';
+        var page = $(this).attr('href');
+        var speed = 2000;
+        $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+        return false;
+      });
+    });
+    $(document).ready(function() {
+      $('.js-scrollToTerre').on('click', function() { // Au clic sur un élément
+        document.title = 'Sur la Terre !';
+        var page = $(this).attr('href'); // Page cible
+        var speed = 2000; // Durée de l'animation (en ms)
+        $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+        return false;
+      });
+    });
+    $(document).ready(function() {
+      $('.js-scrollToSpace').on('click', function() {
+        var page = $(this).attr('href');
+        var speed = 2000;
+        $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+        document.title = "Dans l'espace..";
+        return false;
+      });
+    });
+  </script>
+
+  <body>
+    <div class="header" id="myHeader">
+        <div id="menu-outer">
+            <div class="table">
+              <ul id="horizontal-list">
+                  <li><a class="js-scrollToIntro" href="#intro">Introduction</a></li>
+                  <li><a class="js-scrollToTerre" href="#terre">Terre</a></li>
+                  <li><a class="js-scrollToSpace" href="#espace">L'espace</a></li>
+              </ul>
+            </div>
+          </div>
+    </div>
+
+
+    <div class="background">
+
+      <div class="introback">
+        <div class="r">
+          
+          <div id="intro" class="introduction">
+            <br><br>
+            <h2>La répartition des éléments chimiques dans l'univers</h2>
+            <hr>
+            <p>L’univers est constitué de 118 éléments chimiques différents qui ont été fabriqués à l’intérieur des étoiles au fil des générations. Une etoile nait à partir d'un nuage interstellaire
+               qui contient les matière première necessaire : Hydrogène et hélium, mais il contient également d'autre éléments tel que le carbone, l'azote ou le fer. Un choc de la puissance d'une
+               supernova peut changer la gravité du nuage et le rendre plus denses ce qui va créer une boule et ainsi l'étoile. Après des millions d'années l'étoile atteint le millions de degrés,
+               si l'étoile est inférieure à 8% de la masse du soleil, cette étoile va mourir car elle ne sera pas assez chaud pour provoquer des réactions de fusion nucléaire.
+               Grâce aux lumières qu’émet une étoile nous pouvons à l’aide d’un spectromètres, déterminer de quel éléments chimiques il est constitué en regardant son spectre.
+              <img src="https://assets.lls.fr/pages/6618817/ES1_CH1_p14_Doc1.svg">
+               Par exemple dans le spectre du soleil l'hydrogène peut être trouvé dans la longueur d'onde 410.2 ou 656.3 nm. Plus de détails <a href="https://media4.obspm.fr/public/ressources_lu/pages_tp-spectre-soleil/identification.html" target=0>ici</a>
+              
+              <br><br><br>
+              </div>
+        </div>
+      </div>
+
+      <img src="main.gif">
+      <img src="main.gif">
+      <img src="main.gif">
+
+      <div class="terreback">
+        <div class="r1">
+          <div id="terre">
+            <br><br>
+            <h2>Terre</h2>
+            <hr>
+            <p>La Terre est composé de 92 éléments chimiques naturels. Certains sont indispensables à la vie, les plus abondants sur la croûte terrestre sont les suivants : </p>
+              <li>l’oxygène (47%)</li>
+              <li>le silicium (20%)</li>
+              <li>l'alluminium (8,1%)</li>
+              <li>le fer (5%)</li>
+              <li>le calcium (3,6%)</li>
+              <li>le sodium (2,8)</li>
+              <li>potassium (2,6%)</li>
+              <li>et enfin le magnésium (2,1%)</li>
+          
+          <p>Ils constituent à eux seuls 98,5% de l'écorce terrestre. Les 84 autres éléments chimiques naturels représentent donc uniquement 1,5% de la terre. Les carbone est essentiel à la vie représente 0,048% de la croûte terrestre.</p>
+                <br><br><br><br>
+            </div>
+        </div>
+      </div>
+
+      <img src="main.gif">
+      <img src="main.gif">
+      <img src="main.gif">
+
+      <div class="espaceback">
+        <div class="r2">
+          <div id="espace">
+            <br><br>
+            <h2>L'espace</h2>
+            <hr>
+            <p>Les éléments les plus présents dans l'univers sont l'hydrogène et l'hélium car ils sont les plus légers et sont les plus simples. <li>L'hydrogène (73,9%)</li>On estime que l'hydrogène représenterais
+              plus de 92% des atomes de l'univers ou 73,9% si on inclut la matière noire et la matière ordinaire.</p><p> <li>L'hélium (24%)</li> il le deuxième élément le plus abondants dans l'univers. Sur terre il peut être utilisé dans le domaine spatiale car il à des propriétés qui permettent le refroidissement à de très basses températures.
+              </p>
+                <li>L'oxygène (10,7%)</li>
+              <li>Carbone	(4,6%)</li>
+              <li>Néon	(1,34%)</li>
+              <li>Fer	(1,09%)</li>
+              <li>Azote	(0,95%)</li>
+              <li>Silicium	(0,65%)</li>
+              <li>Magnesium	(0,58%)</li>
+              <li>Soufre	(0,44%)</li>
+              <li>Tous les autres	(0,65%)</li>
+              <p>Ceci est la moyenne des éléments chimique présent dans l'univers car les astronomes ont constaté que les éléments chimiques sont à peu près les mêmes partout dans l'univers.</p>
+
+
+                <br><br><br><br>
+              </div>
+        </div>
+      </div>
+
+    </div>
+    <script>
+    window.onscroll = function() {headerScroll()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function headerScroll() 
+{
+    if (window.pageYOffset > sticky) 
+    {
+        header.classList.add("sticky");
+    } else {
+        header.classList.remove("sticky");
+    }
+}</script>
+    <br><br><br><br><br>
+  </body>
+
+  <footer>
+      <h10>Exposé de Nicolas, Andréa, Natasha</h10>
+  </footer>
+
+</html>

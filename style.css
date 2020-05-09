@@ -1,0 +1,212 @@
+/* texte, cadre, body */
+body 
+{
+background-color: black;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*texte de l'intro */
+.r
+{
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 4%;
+    color: rgb(190, 190, 190);
+    background-color: #202020;
+
+    text-align: justify;
+    font-size: 150%;
+    width: 50%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+/* texte de la terre */
+.r1
+{
+    margin-left: auto;
+    margin-right: 10px;
+
+    padding: 4%;
+    color: rgb(190, 190, 190);
+    background-color: #202020;
+    text-align: justify;
+    font-size: 150%;
+    width: 50%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+/* texte de l'espace */
+.r2
+{
+    margin-left: 10px;
+    margin-right: auto;
+
+    padding: 4%;
+    color: rgb(190, 190, 190);
+    background-color: #202020;
+    text-align: justify;
+    font-size: 150%;
+    width: 50%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+/* Fond d'écran*/
+.introback
+{
+  background-image: url("main.gif");
+}
+
+.terreback
+{
+  background-image: url("terre.gif");
+}
+
+.espaceback
+{
+  
+  max-width: 100%;
+  background-image: url("space.gif");
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.background li
+{
+  margin-left: 10%;
+}
+
+/* Header, bouton, sticky*/
+.header 
+{
+padding: 1px;
+background: #555;
+}
+
+/* le truc qui follow */
+.sticky 
+{
+position: fixed;
+width: 100%;
+}
+
+.sticky + .background
+{
+padding-top: 102px;
+}
+
+/*Les lien*/
+a:link {
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(190, 190, 190);
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: rgb(190, 190, 190);
+}
+
+/* Animation quand on click */
+
+.js-scrollToIntro {
+  font-weight: bold;
+  background-color: #202020;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.js-scrollToIntro:hover {
+  text-decoration: underline;
+  background-color: white;
+  color: black;
+}
+
+.js-scrollToTerre {
+  font-weight: bold;
+  background-color: #202020;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.js-scrollToTerre:hover {
+  text-decoration: underline;
+  background-color: rgb(0, 112, 0);
+  color: rgb(0, 119, 255);
+}
+
+.js-scrollToSpace {
+  font-weight: bold;
+  background-color: #202020;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.js-scrollToSpace:hover {
+  text-decoration: underline;
+  background-color: rgb(0, 29, 53);
+  color: rgb(238, 255, 0);
+}  
+
+/* Mettre les lien a l'horizontal */
+
+.table {
+    
+  transition-duration: 1s;
+  transition-delay: 1s;
+display: table;
+margin: 1px auto;
+}
+
+ul#horizontal-list 
+{
+font-size: 20px;
+padding-top: 1px;
+}
+ul#horizontal-list li {
+  padding: 10px;
+  display: inline;
+}
+
+/* Le credit */
+footer
+{
+  color: rgb(190, 190, 190);
+  font-size: 200%;
+  background-color: #202020;
+  padding: 5px;
+}
