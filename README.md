@@ -1,7 +1,8 @@
 Le site est disponible à cette [adresse](https://coni.github.io/expose-Physique-Chimie/)
 
 # expose-Physique-Chimie
-30/09/2019
+date : 30/09/2019
+note : 9/10
 
 # Exposé sur les éléments chimique dans l'univers
 
