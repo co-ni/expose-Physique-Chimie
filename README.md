@@ -1,3 +1,5 @@
+Le site est disponible à cette [adresse](https://coni.github.io/expose-Physique-Chimie/)
+
 # expose-Physique-Chimie
 30/09/2019
 
